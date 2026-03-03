@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['person-noseatbelt', 'person-seatbelt', 'seatbelt', 'windshield']
+
+roboflow:
+  workspace: sjh-xmkdb
+  project: seatbelt-detection-esut6-baomf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sjh-xmkdb/seatbelt-detection-esut6-baomf/dataset/1
