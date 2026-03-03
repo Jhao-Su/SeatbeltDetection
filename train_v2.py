@@ -1,7 +1,7 @@
 from ultralytics import RTDETR
 import os
 
-# 加载本地预训练模型（使用更大的预训练模型）
+# 加载本地预训练模型
 model = RTDETR("/home/ubuntu/graduation_design/rtdetr-l.pt")  
 
 # 配置训练参数并开始训练
