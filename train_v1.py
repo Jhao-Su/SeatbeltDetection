@@ -6,7 +6,7 @@ model = RTDETR("/home/ubuntu/graduation_design/rtdetr-l.pt")
 # 配置训练参数并开始训练
 # 核心参数说明：
 # - data: 数据集配置文件data.yaml的路径（需正确关联train/valid的图片和标签路径）
-# - epochs: 训练轮数（根据需求调整，如50、100）
+# - epochs: 训练轮数（根据需求调整，如50、100等）
 # - imgsz: 输入图片尺寸（默认640，可根据硬件调整）
 # - batch: 批次大小（根据GPU显存调整，如8、16）
 # - device: 训练设备（0表示第1块GPU，cpu表示CPU）
