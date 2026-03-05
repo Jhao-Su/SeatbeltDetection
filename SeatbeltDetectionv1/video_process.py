@@ -4,7 +4,7 @@ import os
 from seatbelt_detector import detect_single_frame
 
 # 视频路径与输出设置
-video_path = "/home/sutpc/sjh/project03/test4.mp4"
+video_path = "/home/sutpc/sjh/project03/video/test5.mp4"
 output_dir = "/home/sutpc/sjh/project03/runs/track/car_inside_detection"
 os.makedirs(output_dir, exist_ok=True)
 output_path = os.path.join(output_dir, "result_output.mp4")

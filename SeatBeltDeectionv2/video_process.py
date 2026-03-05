@@ -69,7 +69,7 @@ if __name__ == "__main__":
     视频处理入口
     
     使用方法:
-    python video_processor.py --video_path /path/to/input/video.mp4 --output_dir /path/to/output
+    python video_process.py --video_path /path/to/input/video.mp4 --output_dir /path/to/output
     
     注意: 
     - 请将 --video_path 替换为实际视频路径
