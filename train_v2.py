@@ -38,7 +38,6 @@ results = model.train(
     augment=False,     # 保持默认增强（由上述参数控制）
     profile=False,     # 关闭性能分析
     plots=True,        # 生成训练曲线图
-    save_period=5,     # 每5轮保存一次权重
     workers=8,         # 数据加载工作进程数
     cache = "ram"      # 将数据集缓存到RAM中（加速数据加载，需足够内存支持
 )
