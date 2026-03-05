@@ -8,7 +8,7 @@ patience: 15
 batch: 16
 imgsz: 800
 save: true
-save_period: 5
+save_period: -1
 cache: ram
 device: '0'
 workers: 8
