@@ -1,4 +1,5 @@
 .pt
+*.py[cod]
 .jpg
 .png
 .yaml
