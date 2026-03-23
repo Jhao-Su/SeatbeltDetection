@@ -1,0 +1,32 @@
+============================================================
+安全带检测模型评测报告（优化检测）
+============================================================
+
+测试图片数量：452
+IoU 阈值：0.5
+平均每张图片推理耗时：0.0498秒
+
+总体评测指标:
+  TP=568, FP=24, FN=32
+  Precision=0.9595
+  Recall=0.9467
+  F1 Score=0.9530
+
+各类别 AP:
+  person-noseatbelt: AP=0.9181
+  person-seatbelt: AP=0.9106
+  mAP=0.9143
+
+最佳置信度分数:
+  Best Confidence Score=0.51
+  Best F1 Score=0.9530
+
+输出文件:
+  - P_curve.png (Precision vs Confidence)
+  - R_curve.png (Recall vs Confidence)
+  - PR_curve.png (Precision-Recall Curve)
+  - F1_curve.png (F1 Score vs Confidence)
+  - confusion_matrix.png
+  - normalized_confusion_matrix.png
+  - images/pred_*.jpg (推理结果图片)
+  - infos/pred_*.json (推理结果数据)

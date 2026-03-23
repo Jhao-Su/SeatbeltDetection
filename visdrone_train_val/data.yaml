@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['awning-tricycle', 'bicycle', 'bus', 'car', 'motor', 'pedestrian', 'people', 'tricycle', 'truck', 'van']
+
+roboflow:
+  workspace: object-detection-txgev
+  project: visdrone2019-cdhqy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-txgev/visdrone2019-cdhqy/dataset/1
